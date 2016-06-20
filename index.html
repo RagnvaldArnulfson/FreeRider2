@@ -1,0 +1,27 @@
+<html>
+<body bgcolor="#FFFFFF">
+
+
+	<center>	
+		<canvas id="canvas_rider" width="1000px" height="500px" style="background-color:#FFFAFA;"></canvas>
+		<img src="images/toolbar1.png" id="toolbar1" style="position:absolute; display:none; z-index:2;" />
+		<img src="images/toolbar2.png" id="toolbar2" style="position:absolute; display:none; z-index:2;" />
+		<div id="track_menu" class="padded">
+			<div class="floatRight">
+				<input id="new" type="button" value="NEW" /><br/>
+				<input id="load" type="button" value="LOAD" /><br/>
+				<input id="save" type="button" value="SAVE" /><br/>
+			</div>
+			<textarea id="trackcode" rows="5"></textarea><br/>
+		</div>
+
+		<script type="text/javascript" src="js/underwater.js"></script>
+		<script type="text/javascript" src="js/rc7.js"></script>
+		<script type="text/javascript">canvas_ride();</script>
+		
+	</center>
+
+</body>
+</html>
+<!--<script type="text/javascript">
+canvas_ride(904886); if (window.location.href.indexOf("#") != -1) watchGhost(1);</script>-->
